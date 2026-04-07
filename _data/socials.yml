@@ -5,7 +5,7 @@ cv_pdf: /assets/pdf/resume.pdf # path to your CV PDF file
 email: alexandre.jamet@bsc.es # your email address
 # inspirehep_id: 1010907 # Inspire HEP author ID
 rss_icon: true # comment this line to hide the RSS icon
-dblp_id: 279/2596
+dblp_url: https://dblp.org/pid/279/2596.html
 orcid_id: 0000-0001-6119-0213 # ORCID
 github_username: jesuisalexjamet
 scholar_userid: yQV9-VMAAAAJ # your Google Scholar ID
