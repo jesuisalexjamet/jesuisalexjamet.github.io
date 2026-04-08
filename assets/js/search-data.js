@@ -55,7 +55,7 @@ ninja.data = [{
           title: 'Successfully defended my PhD thesis entitle: “Interaction Between Computer Architecture and Artificial Intelligence”...',
           description: "",
           section: "News",},{id: "news-following-the-end-of-my-doctoral-studies-i-was-promoted-to-ai4s-fellow-recognized-researcher",
-          title: 'Following the end of my Doctoral Studies, I was promoted to **AI4S Fellow...',
+          title: 'Following the end of my Doctoral Studies, I was promoted to AI4S Fellow...',
           description: "",
           section: "News",},{id: "news-i-will-serve-as-a-reviewer-in-the-program-committee-of-the-isca-2026-artifact-evaluation",
           title: 'I will serve as a reviewer in the Program Committee of the ISCA...',
