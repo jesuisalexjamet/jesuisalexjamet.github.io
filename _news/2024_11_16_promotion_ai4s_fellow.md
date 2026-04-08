@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Following the end of my Doctoral Studies, I was promoted to **[AI4S Fellow](https://www.bsc.es/es/unete/oportunidades-de-excelencia-profesional/ai4s) | Recognized Researcher**.
+Following the end of my Doctoral Studies, I was promoted to **[AI4S Fellow](https://www.bsc.es/es/unete/oportunidades-de-excelencia-profesional/ai4s) Recognized Researcher**.
