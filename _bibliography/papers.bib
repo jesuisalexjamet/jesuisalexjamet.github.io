@@ -1,13 +1,58 @@
 ---
 ---
 
+@INPROCEEDINGS{jamet_appt_ysf_2025,
+  abbr={APPT YSF},
+  title={A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering},
+  author={Jamet, Alexandre Valentin},
+  booktitle={Proceedings of the 16th International Symposium on Advanced Parallel Processing Technology (APPT 2025), Young Scientist Forum},
+  year={2025},
+  month={July},
+  address={Athens, Greece},
+  pdf={appt_ysf_2025_exted_abstract.pdf},
+  slides={slides/appt_2025_ysf_slides.pptx},
+  abstract={To alleviate the performance and energy overheads
+    of contemporary applications with large data footprints, we
+    propose the Two Level Perceptron (TLP) predictor, a neural
+    mechanism that effectively combines predicting whether an
+    access will be off-chip with adaptive prefetch filtering at the
+    first-level data cache (L1D). TLP is composed of two connected
+    microarchitectural perceptron predictors, named First Level Predictor
+    (FLP) and Second Level Predictor (SLP). FLP performs
+    accurate off-chip prediction by using several program features
+    based on virtual addresses and a novel selective delay component.
+    The novelty of SLP relies on leveraging off-chip prediction to
+    drive L1D prefetch filtering by using physical addresses and the
+    FLP prediction as features. TLP constitutes the first hardware
+    proposal targeting both off-chip prediction and prefetch filtering
+    using a multi-level perceptron hardware approach. TLP only
+    requires 7KB of storage.
+    To demonstrate the benefits of TLP we compare its performance
+    with state-of-the-art approaches using off-chip prediction
+    and prefetch filtering on a wide range of single-core and multicore
+    workloads. Our experiments show that TLP reduces the
+    average DRAM transactions by 30.7% and 17.7%, as compared
+    to a baseline using state-of-the-art cache prefetchers but no offchip
+    prediction mechanism, across the single-core and multi-core
+    workloads, respectively, while recent work significantly increases
+    DRAM transactions. As a result, TLP achieves geometric mean
+    performance speedups of 6.2% and 11.8% across single-core and
+    multi-core workloads, respectively. In addition, our evaluation
+    demonstrates that TLP is effective independently of the L1D
+    prefetching logic.},
+  note={Invited talk to present the results of the HPCA 2024 paper on the Two Level Perceptron.},
+}
+
 @PATENT{jamet_perceptron-based_2025,
 	title = {Perceptron-based off-chip predictor},
 	copyright = {All rights reserved},
+  abstract={The present invention relates to a first-level perceptron (FLP) off-chip predictor communicatively connectable to a computing core and to a DRAM, wherein the core and the DRAM are communicatively connected through a multi-level cache hierarchy of levels L1D, L2C, ..., LLC. The FLP is advantageously adapted with an FLP off-chip prediction mechanism comprising two thresholds, Tlow and Thigh. The invention also relates to a two-level perceptron (TLP) off-chip predictor comprising a first-level perceptron (FLP) off-chip predictor according to any of the preceding claims; and a second-level perceptron (SLP) off-chip predictor communicatively connectable to a multi-level cache hierarchy of levels L1D, L2C, ..., LLC through a L1D prefetcher, wherein the multi-level cache hierarchy is communicatively connected to a computing core and to a DRAM.},
 	url = {https://patents.google.com/patent/EP4575807A1/fr?inventor=Alexandre+Valentin+Jamet},
 	nationality = {EP},
 	language = {en},
 	assignee = {Barcelona Supercomputing Center},
+  type={European Patent},
+  location={EPO},
 	number = {EP4575807A1},
 	urldate = {2026-04-08},
 	author = {Jamet, Alexandre Valentin and VAVOULIOTIS, Georgios and CASAS, Marc},
@@ -15,7 +60,28 @@
 	year = {2025},
 	keywords = {chip, flp, predictor, request, slp},
   abbr={EPO},
+  pdf={EP4575807A1.pdf},
   selected={true}
+}
+
+@phdthesis{jamet_2024, 
+  type={Doctoral Thesis}, 
+  title={Interaction between computer architecture and artificial intelligence}, 
+  abstract={Since its inception with the first computing systems, computer architecture has lived through many revolutions and saw plenty of technological innovations. However, a significant challenge has persisted throughout the evolution of computing systems: the Memory Wall. To address this challenge, architects have devised various latency tolerance techniques, including cache hierarchy, cache replacement policies, hardware prefetching, and off-chip prediction. Cache hierarchy involves the use of intermediate memories, such as caches, to store frequently accessed data close to the processor, thereby reducing memory access latencies. Cache replacement policies determine which data blocks should be stored or evicted from caches based on predictions of future reuse. Hardware prefetching mechanisms aim to bring data blocks that are likely to be needed in the near future into the cache proactively. Off-chip prediction predicts whether a load demand request will benefit from cache access or if it will require a DRAM access, allowing for speculative fetching of data blocks from DRAM to hide memory access latencies. This thesis addresses the challenges of cache management and memory access optimization in modern computer architectures, focusing on improving performance and energy efficiency across a variety of workloads. It presents three main contributions. The first contribution critically assesses the effectiveness of contemporary Last Level Cache (LLC) replacement policies across a diverse spectrum of workloads, encompassing graph processing, scientific, industrial applications, as well as standard benchmark suites like SPEC CPU 2006 and SPEC CPU 2017. Despite exhibiting notable performance enhancements in conventional benchmark scenarios, these existing LLC replacement policies often falter in capturing the nuanced access patterns characteristic of modern High-Performance Computing (HPC) and big data workloads. In response to this challenge, two novel LLC replacement policies, namely Multi-Sampler Multiperspective (MS-MPPPB) and Multiperspective with Dynamic Features Selector (DS-MPPPB), are introduced and rigorously evaluated. Demonstrating superior efficacy across a broad array of workloads, these innovative policies offer heightened performance benefits tailored specifically for HPC and big data applications. The second contribution is dedicated to enhancing memory access patterns, specifically for graph-processing workloads. These workloads are renowned for their irregular memory access patterns and suboptimal data locality. This contribution targets the first level of the cache hierarchy, as careful analysis reveals that, when considering graph-processing workloads, the vast majority of L1D misses eventually require a DRAM access. Introducing the innovative Large Predictor (LP), this endeavor aims to discern between regular and irregular memory accesses, channeling irregular accesses efficiently through a dedicated Side Data Cache (SDC). By synergizing LP with SDC, notable performance enhancements are achieved, surpassing conventional cache hierarchies and state-of-the-art cache replacement policies, particularly within the realm of graph-processing applications. The third contribution presents the Two Level Perceptron (TLP) predictor, a sophisticated approach that integrates off-chip prediction with adaptive prefetch filtering within the first-level data cache (L1D). Leveraging a dual-layered structure composed of the First Level Predictor (FLP) and Second Level Predictor (SLP), TLP effectively mitigates average DRAM transactions while enhancing overall performance across both single-core and multi-core workloads. Collectively, these contributions advance the state-of-the-art in cache management and memory access optimization, providing insights and techniques to enhance the performance and energy efficiency of modern computer architectures across a variety of workloads.},
+  url={https://hdl.handle.net/2117/452757},
+  DOI={10.5821/dissertation-2117-452757}, 
+  school={UPC, Departament d'Arquitectura de Computadors}, 
+  author={Jamet, Alexandre Valentin}, 
+  year={2024},
+  month=Sept,
+  abbr={UPC},
+  altmetric={true},
+  award={Cum Laude},
+  award_name={Cum Laude},
+  dimensions={true},
+  note={Adivced by Marc Casas Guix and Lluc Alvarez.},
+  pdf={phd_thesis.pdf},
+  selected={true},
 }
 
 @INPROCEEDINGS{10476485,
@@ -38,6 +104,7 @@
   dimensions={true},
   pdf={hpca_2024_tlp_camera_ready.pdf},
   poster={hpca_2024_poster_camera_ready.pdf},
+  note={Patented.},
   selected={true}}
 
 @INPROCEEDINGS{9251256,
@@ -57,6 +124,22 @@
   altmetric={true},
   dimensions={true},
   pdf={ipdps_2024_camera_ready.pdf}}
+
+@inproceedings{valentin_jamet_alvarez_casas_2023, 
+  address={Barcelona, Spain}, 
+  abstract={In recent years, graph-processing has become an essential class of workloads with applications in a rapidly growing number of fields. Graph-processing typically uses large input sets, often in multi-gigabyte scale, and data-dependent graph traversal methods exhibiting irregular memory access patterns. Recent work [1] demonstrate that, due to the highly irregular memory access patterns of data-dependent graph traversals, state-of-the-art graph-processing workloads spend up to 80% of the total execution time waiting for memory accesses to be served by the DRAM. The vast disparity between the Last Level Cache (LLC) and main memory latencies is a problem that has been addressed for years in computer architecture. One of the prevailing approaches when it comes to mitigating this performance gap between modern CPUs and DRAM is cache replacement policies. In this work, we characterize the challenges drawn by graph-processing workloads and evaluate the most relevant cache replacement policies.},
+  booktitle={10th BSC Doctoral Symposium},
+  title={Characterizing the impact of graph-processing workloads on modern CPU's cache hierarchy}, 
+  url={https://hdl.handle.net/2117/427760}, 
+  publisher={Barcelona Supercomputing Center},
+  author={Jamet, Alexandre Valentin and Alvarez, Lluc and Casas, Marc}, 
+  year={2023}, 
+  month=May, 
+  keywords={cache management; cache bypassing; big data; graph processing; workload evaluation; irregular workloads; microarchitecture},
+  abbr={BSC SODS},
+  pdf={extended_abstract_doctoral_symposium_bsc_10.pdf},
+  poster={posters/poster_doctoral_symposium_bsc_10.pdf},
+}
 
 @INPROCEEDINGS{10579233,
   author={Jamet, Alexandre Valentin and Vavouliotis, Georgios and Jiménez, Daniel A. and Alvarez, Lluc and Casas, Marc},

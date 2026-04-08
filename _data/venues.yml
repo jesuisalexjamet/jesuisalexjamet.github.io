@@ -13,3 +13,15 @@
 "EPO":
   url: "https://www.epo.org/en"
   color: "#800020"
+
+"UPC":
+  url: "https://upc.edu/"
+  color: ""
+
+"BSC SODS":
+  url: "https://www.bsc.es/education/predoctoral-phd/doctoral-symposium"
+  color: "orange"
+
+"APPT YSF":
+  url: "https://www.appt-conference.com/2025"
+  color: "red"
