@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"HPCA":
+  url: "https://hpca-conf.org/"
+  color: "teal"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IPDPS":
+  url: "https://www.ipdps.org/"
+  color: "blue"
 
-"Vision":
-  color: "#009f36"
+"IISWC":
+  url: "https://iiswc.org/"
+  color: "grey"
+
+"EPO":
+  url: "https://www.epo.org/en"
+  color: "#800020"
