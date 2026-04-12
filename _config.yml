@@ -8,14 +8,14 @@ middle_name: Valentin
 last_name: Jamet
 contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  My personal website including both my acedemic endavours along with some of hobbies: sports, travel, arts, and more. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: computer-architecture, chip, cpu, gpu, ai # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jesuisalexjamet.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -77,7 +77,7 @@ og_image: assets/img/prof_pic.jpg # The site-wide (default for all links) Open G
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-4LRRMD21Z3 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -203,6 +203,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _books/*
   - _pages/about_einstein.md
   - _pages/books.md
   - _pages/dropdown.md
@@ -210,6 +211,8 @@ exclude:
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/teaching.md
+  - _projects/*
+  - _teachings/*
 keep_files:
   - CNAME
   - .nojekyll
@@ -288,7 +291,7 @@ scholar:
   last_name: [Jamet]
   first_name: [Alexandre Valentin, A. V.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
@@ -401,7 +404,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
