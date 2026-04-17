@@ -70,6 +70,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-serve-as-a-reviewer-in-the-program-committee-of-the-isca-2026-artifact-evaluation",
           title: 'I will serve as a reviewer in the Program Committee of the ISCA...',
           description: "",
+          section: "News",},{id: "news-enhancing-instruction-prefetching-via-cache-and-tlb-management-accepted-at-isca-2026",
+          title: 'Enhancing Instruction Prefetching via Cache and TLB Management accepted at ISCA 2026.',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
