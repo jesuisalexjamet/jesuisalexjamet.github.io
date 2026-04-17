@@ -1,3 +1,7 @@
+"ISCA":
+  url: "https://www.iscaconf.org/"
+  color: "#A8B400"
+
 "HPCA":
   url: "https://hpca-conf.org/"
   color: "teal"
