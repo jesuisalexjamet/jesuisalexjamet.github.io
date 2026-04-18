@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-characterizing-the-impact-of-last-level-cache-replacement-policies-on-big-data-workloads-accepted-at-iiswc-2020",
+        },{id: "post-the-early-shape-of-a-long-project",
+        
+          title: "The Early Shape of a Long Project",
+        
+        description: "A personal journey into rethinking CPU front-ends — and why I think it&#39;s time to look beyond instructions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/the-early-shape-of-a-long-project/";
+          
+        },
+      },{id: "news-characterizing-the-impact-of-last-level-cache-replacement-policies-on-big-data-workloads-accepted-at-iiswc-2020",
           title: 'Characterizing the impact of last-level cache replacement policies on big-data workloads accepted at...',
           description: "",
           section: "News",},{id: "news-a-two-level-neural-approach-combining-off-chip-prediction-with-adaptive-prefetch-filtering-accepted-at-hpca-2024",
@@ -73,7 +84,9 @@ ninja.data = [{
           section: "News",},{id: "news-enhancing-instruction-prefetching-via-cache-and-tlb-management-accepted-at-isca-2026",
           title: 'Enhancing Instruction Prefetching via Cache and TLB Management accepted at ISCA 2026.',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_04_17_isca2026_ip_cat_accept/";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
