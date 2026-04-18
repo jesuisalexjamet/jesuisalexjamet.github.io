@@ -40,6 +40,12 @@ I am from France, specifically from Guadeloupe, a French island in the **[Lesser
 
 Beyond research, I competed for the **French National finswimming team** (7 times) and represented France at the **World Championships**. This elite sports background shaped my approach to research: I bring the same discipline, goal-orientation, and mental toughness that I developed as an athlete. I believe the principles that make elite athletes successful — **systematic training, resilience through setbacks, long-term planning, and peak performance under pressure** — are exactly what make great researchers. Today, I continue to train as a powerlifter, maintaining the physical and mental discipline that fuels my research.
 
+## :writing_hand: Writing
+
+I occasionally publish technical notes and essays on computer architecture, simulation tools, scientific infrastructure, and research methodologies.
+
+:link: In '[The Early Shape of a Long Project]({% post_url 2026-04-12-the-early-shape-of-a-long-project %})', I outline a research roadmap for the next few years, exploring ideas in microarchitecture that I aim to develop and propose. This piece establishes the foundation for my upcoming work in processor design and memory systems.
+
 ## :microscope: Research
 
 My research explores the microarchitecture of general-purpose processors, with an emphasis on **memory systems, data movement, and performance bottlenecks**. As of late, I have taken a keen interest in building more efficient front-ends for general purpose CPUs. This spans components such as branch predictors, µ-ops cache, TLBs, and their interactions with memory systems.
