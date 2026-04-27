@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-collaborators",
+          title: "Collaborators",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "post-the-early-shape-of-a-long-project",
         
           title: "The Early Shape of a Long Project",
@@ -56,6 +63,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-practically-tackling-memory-bottlenecks-of-graph-processing-workloads-accepted-at-ipdps-2024",
           title: 'Practically tackling memory bottlenecks of graph-processing workloads accepted at IPDPS 2024.',
+          description: "",
+          section: "News",},{id: "news-a-two-level-neural-approach-combining-off-chip-prediction-with-adaptive-prefetch-filtering-received-the-hipeac-2024-paper-award",
+          title: 'A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering received...',
           description: "",
           section: "News",},{id: "news-presented-a-two-level-neural-approach-combining-off-chip-prediction-with-adaptive-prefetch-filtering-at-hpca-2024-in-edinburgh-united-kingdom",
           title: 'Presented A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering...',
@@ -113,6 +123,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://dblp.org/pid/279/2596.html", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/alexandrevjamet.bsky.social", "_blank");
         },
       },{
         id: 'social-orcid',
