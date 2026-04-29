@@ -30,8 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-curriculum-vitae",
-          title: "Curriculum Vitae",
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A curated list of the projects I work on and try to have some sort of impact with :smile:.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
           description: "This is an overview of my work life. You can also download the pdf with the following button to access the more academic and complete version.",
           section: "Navigation",
           handler: () => {
@@ -96,6 +103,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026_04_17_isca2026_ip_cat_accept/";
+            },},{id: "projects-track",
+          title: 'TRACK',
+          description: "An Open-Source, Global Trace Library for Trace-Based Simulators",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/track/";
             },},{
         id: 'social-cv',
         title: 'CV',
