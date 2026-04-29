@@ -207,10 +207,8 @@ exclude:
   - _pages/about_einstein.md
   - _pages/books.md
   - _pages/dropdown.md
-  - _pages/projects.md
   - _pages/repositories.md
   - _pages/teaching.md
-  - _projects/*
   - _teachings/*
 keep_files:
   - CNAME
