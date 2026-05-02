@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <b>Enhancing Instruction Prefetching via Cache and TLB Management</b> accepted at <b>ISCA 2026</b>.
+title: Enhancing Instruction Prefetching via Cache and TLB Management accepted at ISCA 2026.
 date: 2026-04-17 05:17:00+0100
 inline: false
 related_posts: false
@@ -19,3 +19,5 @@ To overcome these challenges, we propose IP-CaT (Instruction Prefetch Centric Ca
 We demonstrate that IP-CaT delivers significant performance improvements when integrated with three state-of-the-art L1I prefetchers (EPI, Barça, FNL+MMA), achieving up to 8.3% geomean speedup. IP-CaT substantially outperforms the state-of-the-art TLB management policy (CHiRP), the leading instruction TLB prefetcher (Morrigan), and state-of-the-art code-aware and general-purpose cache replacement policies (Emissary, SHiP++, Mockingjay).
 
 Looking forward to presenting this work at ISCA 2026!
+
+:link: A pre-print of the final paper is available [here]({{ '/assets/pdf/isca_2026_ip_cat.pdf' | relative_url }}).
