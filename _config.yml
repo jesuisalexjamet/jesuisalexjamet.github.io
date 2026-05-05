@@ -2,18 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Alexandre V. Jamet, PhD. # the website title (if blank, full name will be used instead)
+title: Alexandre V. Jamet, PhD | Computer Architecture & Memory Systems Researcher # the website title (if blank, full name will be used instead)
 first_name: Alexandre
 middle_name: Valentin
 last_name: Jamet
 contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My personal website including both my acedemic endavours along with some of hobbies: sports, travel, arts, and more. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Alexandre V. Jamet, PhD, is an AI4S Fellow at BSC researching memory systems, branch prediction, and simulation. Explore his work on IP-CaT, TLP, and CPU microarchitecture.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: computer-architecture, chip, cpu, gpu, ai # add your own keywords or leave empty
+    &copy; 2026 Alexandre Valentin Jamet, PhD. AI4S Fellow at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center</a>.
+    Researching <em>Front-End Architectures</em>, <em>Memory Sub-systems</em>, and <em>Performance Modeling</em>.
+keywords: computer-architecture, chip, cpu, gpu, ai, front-end-microarchitecture, memory-subsystem, performance-modeling, energy-efficiency, branch-prediction, instruction-prefetching, cache-replacement-policies, neural-prefetching, ip-cat, tlp, off-chip-prediction, hpc, big-data, simulation-infrastructure, sonar-group, bsc, ai4s-fellow
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

@@ -1,6 +1,8 @@
 ---
 layout: about
 title: About
+description: >
+  Alexandre Valentin Jamet is an AI4S Fellow at the Barcelona Supercomputing Center (BSC) specializing in Computer Architecture, Front-End Microarchitecture, Memory Sub-systems, and Performance Modeling. Research on neural prefetching, cache replacement policies, and L1I prefetching.
 permalink: /
 
 profile:
@@ -26,25 +28,25 @@ latest_posts:
 
 ## :raising_hand_man: About Me
 
-I am **Alexandre Valentin Jamet**, a computer architect and researcher within the **[SONAR group](https://www.bsc.es/research/computer-sciences/computer-architecture)** at the **[Barcelona Supercomputing Center (BSC)](https://www.bsc.es)**. I hold a Diplôme d'ingénieur in engineering and a PhD in computer architecture.
+I am **Alexandre Valentin Jamet**, an **AI4S Fellow** and computer architect within the **[SONAR group](https://www.bsc.es/research/computer-sciences/computer-architecture)** at the **[Barcelona Supercomputing Center (BSC)](https://www.bsc.es)**. I hold a Diplôme d'ingénieur in engineering and a **PhD in Computer Architecture**.
 
-My research explores the **design and evaluation of modern microarchitectures for general-purpose processors**, with a focus on **memory systems, performance bottlenecks, and simulation infrastructure**. I'm particularly interested in building fast, realistic, and scalable tools for architecture research, and in understanding how different components of the processor interact — especially the coupling between memory systems and branch prediction.
+My research focuses on the **design and evaluation of modern microarchitectures for general-purpose processors**, with a specialized emphasis on **Front-End Microarchitecture**, **Memory Sub-systems**, and **Performance Modeling**. I am dedicated to building fast, realistic, and scalable **simulation infrastructure** for architecture research, analyzing the critical coupling between **memory systems** and **branch prediction**.
 
-I write about microarchitecture, simulation, and the future of computer systems, combining research insights with practical system design. I'm particularly excited about **memory-aware microarchitecture** — rethinking how processors should be designed when memory and branch prediction are deeply coupled, rather than independent.
+I write about microarchitecture, simulation, and the future of computer systems, combining deep research insights with practical system design. I am particularly excited about **memory-aware microarchitecture**—rethinking processor design where **memory systems** and **branch prediction** are deeply coupled rather than independent.
 
-My approach combines rigorous scientific analysis with practical engineering solutions. I believe great architecture research requires both: deep theoretical insights and practical feasibility. This combination of scientist and engineer informs everything I do.
+My approach merges rigorous scientific analysis with practical engineering. I believe great architecture research requires both theoretical depth and practical feasibility.
 
 ### Personal Background
 
-I am from France, specifically from Guadeloupe, a French island in the **[Lesser Antilles](https://en.wikipedia.org/wiki/Lesser_Antilles)**, a part of the West Indies. I am a French citizen through my father and a citizen of Guinea through my mother, where I am a descendant of the **[Fulani people](https://en.wikipedia.org/wiki/Fula_people)**. My family is deeply international — spanning Eastern Europe to the Pacific Coast in California — which has given me the privilege of experiencing a wide range of cultures and perspectives.
+I am from France, specifically from Guadeloupe, a French island in the **[Lesser Antilles](https://en.wikipedia.org/wiki/Lesser_Antilles)**, part of the West Indies. I am a French citizen through my father and a citizen of Guinea through my mother, where I am a descendant of the **[Fulani people](https://en.wikipedia.org/wiki/Fula_people)**. My family spans from Eastern Europe to the Pacific Coast in California, giving me a global perspective.
 
-Beyond research, I competed for the **French National finswimming team** (7 times) and represented France at the **World Championships**. This elite sports background shaped my approach to research: I bring the same discipline, goal-orientation, and mental toughness that I developed as an athlete. I believe the principles that make elite athletes successful — **systematic training, resilience through setbacks, long-term planning, and peak performance under pressure** — are exactly what make great researchers. Today, I continue to train as a powerlifter, maintaining the physical and mental discipline that fuels my research.
+Beyond research, I competed for the **French National Finswimming Team** (7 times) and represented France at the **World Championships**. This elite athletic background shaped my research methodology: I apply the same **discipline**, **resilience**, and **long-term planning** to **computer architecture** as I did to competitive sports. Today, I continue training as a **powerlifter**, maintaining the physical and mental discipline that fuels my work in **HPC** and **AI-driven microarchitecture**.
 
-## :writing_hand: Writing
+## :writing_hand: Writing & Insights
 
-I occasionally publish technical notes and essays on computer architecture, simulation tools, scientific infrastructure, and research methodologies.
+I publish technical notes and essays on **computer architecture**, **simulation tools**, and **research methodologies**.
 
-:link: In '[The Early Shape of a Long Project]({% post_url 2026-04-12-the-early-shape-of-a-long-project %})', I outline a research roadmap for the next few years, exploring ideas in microarchitecture that I aim to develop and propose. This piece establishes the foundation for my upcoming work in processor design and memory systems.
+:link: In '[The Early Shape of a Long Project]({% post_url 2026-04-12-the-early-shape-of-a-long-project %})', I outline a research roadmap exploring **front-end efficiency**, **instruction prefetching**, and **processor design** for the next decade.
 
 ## :microscope: Research
 
@@ -56,8 +58,8 @@ More broadly, I am interested in **rethinking the fundamental design principles 
 
 ## :handshake: Collaborate with me
 
-If you feel like I could bring value to your projects in one way or the other, feel free to reach out for a collaboration.
+If you feel I could bring value to your projects in **computer architecture**, **simulation**, or **system design**, feel free to reach out.
 
-*P.S.*: I do not take students. However, I am always open for conversation if one is in need of advice.
+*P.S.*: I do not supervise students. However, I am always open to conversations regarding **advice** or **collaboration**.
 
 [:email: Send me an email and let's discuss!](mailto:alexandre.jamet@bsc.es)
