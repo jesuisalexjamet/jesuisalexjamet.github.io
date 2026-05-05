@@ -11,7 +11,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Alexandre V. Jamet, PhD, is an AI4S Fellow at BSC researching memory systems, branch prediction, and simulation. Explore his work on IP-CaT, TLP, and CPU microarchitecture.
 footer_text: >
     &copy; 2026 Alexandre Valentin Jamet, PhD. AI4S Fellow at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center</a>.
-    Researching <em>Front-End Architectures</em>, <em>Memory Sub-systems</em>, and <em>Performance Modeling</em>.
 keywords: computer-architecture, chip, cpu, gpu, ai, front-end-microarchitecture, memory-subsystem, performance-modeling, energy-efficiency, branch-prediction, instruction-prefetching, cache-replacement-policies, neural-prefetching, ip-cat, tlp, off-chip-prediction, hpc, big-data, simulation-infrastructure, sonar-group, bsc, ai4s-fellow
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
