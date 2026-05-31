@@ -1,0 +1,5 @@
+Marc Casas is a technical research lead at the Barcelona Supercomputing Center (BSC) and lecturer at the Universitat Politècnica de Catalunya (UPC). His research lays between parallel computing (e.g., sparse linear algebra, parallel deep learning) and computer architecture (e.g., memory address translation, vector architectures). He is the technical lead of the SONAR (parallel SOftware and New ARchitectures) research group, composed of PhD students, engineers, and postdocs. Marc has led BSC contributions to several european projects (Mont-Blanc2020, European Processor Initiative, etc.), and research collaborations with Intel and IBM. 
+
+Marc has been at BSC since 2013. He was a postdoctoral research scholar at the Lawrence Livermore National Laboratory (LLNL) from 2010 to 2013. He received the Marie Curie and Ramón y Cajal Fellowships in 2014 and 2018, respectively. He obtained a 5-years degree in mathematics in 2004, and a PhD degree in Computer Science in 2010 from the Universitat Politècnica de Catalunya (UPC).
+
+:link: [Marc Casas' website](https://www.bsc.es/casas-marc).
