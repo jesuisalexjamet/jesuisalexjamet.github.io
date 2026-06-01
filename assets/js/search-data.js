@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-the-early-shape-of-a-long-project",
+        },{id: "post-co-designing-cache-and-tlb-management-for-high-performance-instruction-prefetching",
+        
+          title: "Co-Designing Cache and TLB Management for High-Performance Instruction Prefetching",
+        
+        description: "An architectural deep-dive into the IP-CaT framework published at ISCA 2026, addressing the translation and pollution bottlenecks of instruction streams.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ip-cat/";
+          
+        },
+      },{id: "post-the-early-shape-of-a-long-project",
         
           title: "The Early Shape of a Long Project",
         
