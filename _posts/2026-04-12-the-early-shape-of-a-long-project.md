@@ -5,7 +5,7 @@ description: "A personal journey into rethinking CPU front-ends — and why I th
 date: 2026-04-18
 categories: [computer-architecture, microarchitecture]
 tags: [cpu, front-end, branch-prediction, hardware-design, semantic-analysis]
-# featured: true
+featured: true
 thumbnail: assets/img/alessandro-erbetta-8oYPewvmhnY-unsplash.jpg
 related_posts: true
 ---
