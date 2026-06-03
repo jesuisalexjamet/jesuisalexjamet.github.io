@@ -1,11 +1,23 @@
+"casas":
+  - firstname: ["Marc"]
+    url: https://www.bsc.es/casas-marc
+
+"alvarez":
+  - firstname: ["Lluc"]
+    url: https://www.bsc.es/alvarez-marti-lluc
+
 "jimenez":
   - firstname: ["Daniel A.", "Daniel"]
     url: https://people.engr.tamu.edu/djimenez/index.html
 
 "vavouliotis":
-  - firstname: "Georgios"
+  - firstname: ["Georgios"]
     url: https://gvavou5.github.io
 
+"chasapis":
+  - firstname: ["Dimitrios"]
+    url: https://www.bsc.es/chasapis-dimitrios
+
 "torrents":
-  - firstname: "Marti"
-    url: https://scholar.google.com/citations?user=UZgrmswAAAAJ&hl=fr
+  - firstname: ["Marti"]
+    url: https://scholar.google.com/citations?user=UZgrmswAAAAJ
