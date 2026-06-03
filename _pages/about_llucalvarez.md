@@ -1,0 +1,5 @@
+Dr. Lluc Alvarez is a senior researcher within the Computer Sciences department at the Barcelona Supercomputing Center (BSC). His research centers on high-performance computer architecture, with a strong focus on runtime systems, task-based parallel programming models, and memory hierarchy optimization. He has been deeply involved in co-designing hardware-software interfaces to improve processor efficiency and scalability for next-generation supercomputers.
+
+He earned his Ph.D. from the Universitat Politècnica de Catalunya (UPC), specializing in architectural support and runtime strategies for parallel systems. Over his career, Dr. Alvarez has contributed significantly to microarchitecture research, including work on memory subsystems, cache management, and hardware prefetching mechanisms. His research is widely published in top-tier computer architecture and high-performance computing venues, reflecting his active collaboration on cutting-edge systems at BSC.
+
+:link: [Lluc Alvarez' website](https://www.bsc.es/alvarez-marti-lluc).
