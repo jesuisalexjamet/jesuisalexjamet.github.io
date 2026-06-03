@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-06-03'
 papers:
   yQV9-VMAAAAJ:8k81kl-MbHgC:
     citations: 0
@@ -10,14 +10,18 @@ papers:
     title: Characterizing the impact of last-level cache replacement policies on big-data workloads
     year: '2023'
   yQV9-VMAAAAJ:LkGwnXOMwfcC:
-    citations: 19
-    title: A two level neural approach combining off-chip prediction with adaptive prefetch filtering
+    citations: 24
+    title: A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering
     year: '2024'
   yQV9-VMAAAAJ:Se3iqnhoufwC:
-    citations: 2
+    citations: 3
     title: Practically tackling memory bottlenecks of graph-processing workloads
     year: '2024'
   yQV9-VMAAAAJ:UebtZRa9Y70C:
     citations: 0
     title: "Characterizing the impact of graph-processing workloads on modern CPU\u2019s cache hierarchy"
     year: '2023'
+  yQV9-VMAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: Enhancing Instruction Prefetching via Cache and TLB Management
+    year: '2026'
