@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-16'
 papers:
   yQV9-VMAAAAJ:8k81kl-MbHgC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Characterizing the impact of last-level cache replacement policies on big-data workloads
     year: '2023'
   yQV9-VMAAAAJ:LkGwnXOMwfcC:
-    citations: 24
+    citations: 25
     title: A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering
     year: '2024'
   yQV9-VMAAAAJ:Se3iqnhoufwC:
