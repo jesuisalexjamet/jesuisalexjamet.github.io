@@ -114,7 +114,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026_04_17_isca2026_ip_cat_accept/";
-            },},{id: "news-presented-enhancing-instruction-prefetching-via-cache-and-tlb-management-at-isca-2026-in-raleight-north-carolina-united-states-of-america",
+            },},{id: "news-presented-enhancing-instruction-prefetching-via-cache-and-tlb-management-at-isca-2026-in-raleigh-north-carolina-united-states-of-america",
           title: 'Presented Enhancing Instruction Prefetching via Cache and TLB Management at ISCA 2026 in...',
           description: "",
           section: "News",handler: () => {
