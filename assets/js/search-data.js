@@ -153,6 +153,13 @@ ninja.data = [{
           window.open("https://dblp.org/pid/279/2596.html", "_blank");
         },
       },{
+        id: 'social-ieee',
+        title: 'IEEE Xplore',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://ieeexplore.ieee.org/author/37088639449/", "_blank");
+        },
+      },{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
@@ -186,6 +193,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://instagram.com/alexandrevjamet", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/alexandvjamet", "_blank");
         },
       },{
       id: 'light-theme',
