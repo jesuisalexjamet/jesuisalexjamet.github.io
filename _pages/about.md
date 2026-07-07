@@ -63,3 +63,23 @@ If you feel I could bring value to your projects in **computer architecture**, *
 *P.S.*: I do not supervise students. However, I am always open to conversations regarding **advice** or **collaboration**.
 
 [:email: Send me an email and let's discuss!](mailto:alexandre.jamet@bsc.es)
+
+<!-- Substack newsletter signup -->
+<div class="substack-embed-wrapper">
+  <iframe
+    src="https://alexvjamet.substack.com/embed"
+    title="Subscribe to Alex’s Architecture Insights"
+    width="100%"
+    height="200"
+    style="
+      border: none;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,.08);
+    "
+    scrolling="no"
+    frameborder="0"
+    allowtransparency="true">
+  </iframe>
+</div>
