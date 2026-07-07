@@ -39,26 +39,35 @@
 @use "font-awesome/regular";
 
 /* -------------------------------------------------
-   Substack embed wrapper – responsive + al‑folio look
+   Substack newsletter signup – responsive embed
    ------------------------------------------------- */
-.substack-embed-wrapper {
-   position: relative;
-   width: 100%;
-   max-width: 480px;               /* matches your original width but caps it */
-   margin: 2rem auto;              /* vertical spacing + centre it */
-   
-   /* Optional: give it a subtle card‑like feel to blend with the theme */
-   @extend .card;
-   @extend .shadow-sm;
-   
-   /* Make the iframe keep a sensible height on very small screens */
-   @media (max-width: 480px) {
-      height: auto;                 /* let the iframe dictate its height */
-      iframe {
-         height: 180px;              /* a little taller for mobile touch targets */
+   .substack-embed-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 480px;            /* matches your original width but caps it */
+      margin: 2rem auto;           /* vertical spacing + centre it */
+    
+      /* Card‑like styling that blends with al‑folio */
+      border-radius: .5rem;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,.08);
+      overflow: hidden;            /* hide any accidental scrollbars */
+    }
+    
+    /* The iframe itself */
+    .substack-embed-wrapper iframe {
+      width: 100%;
+      height: 200px;               /* enough for the Substack modal */
+      display: block;
+      border: 0;
+    }
+    
+    /* Small‑screen tweak – make it a touch‑friendly height */
+    @media (max-width: 480px) {
+      .substack-embed-wrapper {
+        height: auto;              /* let the iframe dictate its height */
       }
-   }
-   }
-   
-   /* If you already use al‑folio’s card/shadow utilities you can skip the @extend lines
-      and just rely on the default styles above. */
+      .substack-embed-wrapper iframe {
+        height: 180px;             /* slightly taller for easy tapping on mobile */
+      }
+    }
