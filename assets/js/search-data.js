@@ -119,6 +119,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026_07_01_isca_2026_ip_cat_presentation/";
+            },},{id: "news-the-track-project-has-entered-its-test-phase-within-the-bsc-dataverse-test-instance",
+          title: 'The TRACK project has entered its test phase within the BSC Dataverse test...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_07_14_track_project_test/";
             },},{id: "projects-track",
           title: 'TRACK',
           description: "An Open-Source, Global Trace Library for Trace-Based Simulators",
