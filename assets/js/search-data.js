@@ -124,7 +124,13 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026_07_14_track_project_test/";
-            },},{id: "projects-track",
+            },},{id: "news-i-will-serve-as-a-reserve-reviewer-for-the-hpca-2027-conference",
+          title: 'I will serve as a reserve reviewer for the HPCA 2027 conference.',
+          description: "",
+          section: "News",},{id: "news-i-will-serve-as-a-reviewer-in-the-program-committee-of-the-micro-2026-artifact-evaluation",
+          title: 'I will serve as a reviewer in the Program Committee of the MICRO...',
+          description: "",
+          section: "News",},{id: "projects-track",
           title: 'TRACK',
           description: "An Open-Source, Global Trace Library for Trace-Based Simulators",
           section: "Projects",handler: () => {
