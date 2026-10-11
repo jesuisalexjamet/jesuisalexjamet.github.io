@@ -6,10 +6,10 @@ inline: false
 related_posts: false
 ---
 
-{% include figure.liquid path="assets/img/isca_2026_ip_cat_talk.jpeg" 
-   title="Last photo in front of the ISCA'26 venue." 
-   width="75%" 
-   class="img-fluid rounded z-depth-1 mx-auto d-block" 
+{% include figure.liquid path="assets/img/isca_2026_ip_cat_talk.jpeg"
+   title="Last photo in front of the ISCA'26 venue."
+   width="75%"
+   class="img-fluid rounded z-depth-1 mx-auto d-block"
    caption="Last photo in front of the ISCA'26 venue."
 %}
 
@@ -20,5 +20,6 @@ The conference was an invigorating assembly of the leading minds in microarchite
 ---
 
 ### Resources
-* 📄 **Paper:** [Download the full paper (PDF)](assets/pdf/isca_2026_ip_cat.pdf)
-* 📊 **Slides:** [Presentation Slides (PPTX)](assets/pdf/slides/isca_2026_ip_cat_slides.pptx)
+
+- 📄 **Paper:** [Download the full paper (PDF)](assets/pdf/isca_2026_ip_cat.pdf)
+- 📊 **Slides:** [Presentation Slides (PPTX)](assets/pdf/slides/isca_2026_ip_cat_slides.pptx)

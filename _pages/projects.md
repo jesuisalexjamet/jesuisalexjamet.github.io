@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: 'A curated list of the projects I work on and try to have some sort of impact with :smile:.'
+description: "A curated list of the projects I work on and try to have some sort of impact with :smile:."
 nav: true
 nav_order: 3
 display_categories: [data-management]

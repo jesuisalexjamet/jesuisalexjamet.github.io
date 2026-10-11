@@ -4,7 +4,6 @@ title: About
 description: >
   Alexandre Valentin Jamet is an AI4S Fellow at the Barcelona Supercomputing Center (BSC) specializing in Computer Architecture, Front-End Microarchitecture, Memory Sub-systems, and Performance Modeling. Research on neural prefetching, cache replacement policies, and L1I prefetching.
 permalink: /
-
 profile:
   align: right
   image: prof_pic.jpg
@@ -60,7 +59,7 @@ More broadly, I am interested in **rethinking the fundamental design principles 
 
 If you feel I could bring value to your projects in **computer architecture**, **simulation**, or **system design**, feel free to reach out.
 
-*P.S.*: I do not supervise students. However, I am always open to conversations regarding **advice** or **collaboration**.
+_P.S._: I do not supervise students. However, I am always open to conversations regarding **advice** or **collaboration**.
 
 [:email: Send me an email and let's discuss!](mailto:alexandre.jamet@bsc.es)
 

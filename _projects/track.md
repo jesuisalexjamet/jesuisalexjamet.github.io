@@ -11,6 +11,7 @@ related_publications: true
 This decentralized trace repository project is designated the **T**race **R**epository for **A**rchitecture & **C**omputation **K**nowledge, hence the acronym **TRACK**.
 
 ## Table of Contents
+
 - [About the Project](#about-the-project)
 - [Project Structure](#project-structure)
 - [Contribution](#contribution)
@@ -22,7 +23,7 @@ This decentralized trace repository project is designated the **T**race **R**epo
 
 Over the past decade, the volume of micro-architecture research leveraging the [ChampSim Simulator](https://champsim.github.io/ChampSim/) has grown exponentially. While ChampSim has been instrumental in driving significant innovations within the community, its underlying infrastructure has suffered from a critical bottleneck: the lack of standardized, accessible trace repositories. This scarcity severely impedes the reproducibility of results presented in recent literature.
 
-My own research has not been immune to this challenge; accessing the precise trace sets required to validate prior work has proven increasingly difficult (*c.f.*, {% cite jamet_characterization_iiswc_2020 jamet_tlp_hpca_2024 jamet_sdc_ipdps_2024 jamet_ip_cat_isca_2026 %}). To address this, the TRACK project proposes a **FAIR** approach to trace management. In the context of scientific research, FAIR is an acronym for the four core principles defined by the [GO FAIR Initiative](https://www.go-fair.org/):
+My own research has not been immune to this challenge; accessing the precise trace sets required to validate prior work has proven increasingly difficult (_c.f._, {% cite jamet_characterization_iiswc_2020 jamet_tlp_hpca_2024 jamet_sdc_ipdps_2024 jamet_ip_cat_isca_2026 %}). To address this, the TRACK project proposes a **FAIR** approach to trace management. In the context of scientific research, FAIR is an acronym for the four core principles defined by the [GO FAIR Initiative](https://www.go-fair.org/):
 
 - **<u>F</u>indable**: The primary step in (re)using data is its discovery. Metadata and data must be easily discoverable by both humans and machines. Machine-readable metadata are essential for the automatic discovery of datasets, serving as a foundational component of the FAIRification process.
 - **<u>A</u>ccessible**: Once the required data are located, users must know how to access them, including any necessary authentication or authorization protocols.

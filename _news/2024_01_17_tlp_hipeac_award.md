@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering](https://ieeexplore.ieee.org/abstract/document/10476485)** received the **HiPEAC 2024 Paper Award**. 
+**[A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering](https://ieeexplore.ieee.org/abstract/document/10476485)** received the **HiPEAC 2024 Paper Award**.

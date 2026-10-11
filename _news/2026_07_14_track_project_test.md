@@ -13,5 +13,6 @@ The first testing phase of the [TRACK]({{ track_project.url | relative_url }}) p
 ---
 
 ### Resources
- - **[GitHub Repository](https://github.com/jesuisalexjamet/track-schema)**
- - **[BSC Dataverse](https://dataverse.bsc.es/)**
+
+- **[GitHub Repository](https://github.com/jesuisalexjamet/track-schema)**
+- **[BSC Dataverse](https://dataverse.bsc.es/)**
