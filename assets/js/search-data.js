@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-co-designing-cache-and-tlb-management-for-high-performance-instruction-prefetching",
+        },{id: "post-the-hardware-dies-first-a-computer-architect-reads-the-ai-capital-supercycle",
+        
+          title: "The Hardware Dies First: A Computer Architect Reads the AI Capital Supercycle",
+        
+        description: "Central bankers now blame hyperscaler CapEx for bond yields. An architect&#39;s walk through the AI debt stack — hidden liabilities, the DeepSeek repricing, and the one fixed point of the cycle: good AI runs on good hardware.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ai-convertible-debt-macro-thesis/";
+          
+        },
+      },{id: "post-co-designing-cache-and-tlb-management-for-high-performance-instruction-prefetching",
         
           title: "Co-Designing Cache and TLB Management for High-Performance Instruction Prefetching",
         
