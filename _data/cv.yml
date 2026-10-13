@@ -3,16 +3,8 @@ cv:
   label: AI4S Fellow Researcher – Computer Science / Computer Architecture
   email: "alexandre.jamet@bsc.es"
   location: "Barcelona, Spain"
-  phone: "+34 640 306 376"
   image: "assets/img/profile_pic.jpg"
   summary: PhD in Computer Architecture with a Master’s degree in Embedded Software. Specialized in optimizing CPU data movement and performance. Extensive experience working across research labs, industry partners, and cross-disciplinary teams to address memory bottlenecks and enhance virtual memory systems. Skilled in leveraging AI-driven techniques to improve system efficiency.
-
-  address:
-    street: Edifici Til·lers Planta 3, BSC-REPSOL Building, Plaça Eusebi Güell 1-3
-    city: Barcelona
-    region: Catalunia
-    postalCode: 08034
-    countryCode: ES
 
   social_networks:
     - network: LinkedIn
