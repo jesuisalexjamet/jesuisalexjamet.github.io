@@ -1,0 +1,423 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Situational Awareness Is a Ledger, Not a Feeling | Alexandre V. Jamet, PhD </title> <meta name="author" content="Alexandre Valentin Jamet"> <meta name="description" content="Between September and November 2026 I wrote eleven letters to a small group of people who asked me to keep them posted. Read together they are not a track record — they are a method: read the physical layer, separate the technology from the business model, size the position before the story, and pre-commit the exits."> <meta name="keywords" content="computer-architecture, chip, cpu, gpu, ai, front-end-microarchitecture, memory-subsystem, performance-modeling, energy-efficiency, branch-prediction, instruction-prefetching, cache-replacement-policies, neural-prefetching, ip-cat, tlp, off-chip-prediction, hpc, big-data, simulation-infrastructure, sonar-group, bsc, ai4s-fellow"> <meta property="og:site_name" content="Alexandre V. Jamet, PhD"> <meta property="og:type" content="article"> <meta property="og:title" content="Alexandre V. Jamet, PhD | Situational Awareness Is a Ledger, Not a Feeling"> <meta property="og:url" content="https://alexandrevalentinjamet.eu/blog/2026/situational-awareness/"> <meta property="og:description" content="Between September and November 2026 I wrote eleven letters to a small group of people who asked me to keep them posted. Read together they are not a track record — they are a method: read the physical layer, separate the technology from the business model, size the position before the story, and pre-commit the exits."> <meta property="og:image" content="https://alexandrevalentinjamet.eu/assets/img/blog/boliviainteligente-GH6uTRKPK0Q-unsplash.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Situational Awareness Is a Ledger, Not a Feeling"> <meta name="twitter:description" content="Between September and November 2026 I wrote eleven letters to a small group of people who asked me to keep them posted. Read together they are not a track record — they are a method: read the physical layer, separate the technology from the business model, size the position before the story, and pre-commit the exits."> <meta name="twitter:image" content="https://alexandrevalentinjamet.eu/assets/img/blog/boliviainteligente-GH6uTRKPK0Q-unsplash.jpg"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Alexandre Valentin Jamet"
+        },
+        "url": "https://alexandrevalentinjamet.eu/blog/2026/situational-awareness/",
+        "@type": "BlogPosting",
+        "description": "Between September and November 2026 I wrote eleven letters to a small group of people who asked me to keep them posted. Read together they are not a track record — they are a method: read the physical layer, separate the technology from the business model, size the position before the story, and pre-commit the exits.",
+        "headline": "Situational Awareness Is a Ledger, Not a Feeling",
+        
+        "sameAs": [null,"https://dblp.org/pid/279/2596.html","https://bsky.app/profile/alexandrevjamet.bsky.social","https://orcid.org/0000-0001-6119-0213","https://github.com/jesuisalexjamet","https://scholar.google.com/citations?user=yQV9-VMAAAAJ","https://instagram.com/alexandrevjamet","https://twitter.com/alexandvjamet"],
+        
+        "name": "Alexandre Valentin Jamet",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%94%AC&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://alexandrevalentinjamet.eu/blog/2026/situational-awareness/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3.1.0/dist/cookieconsent.css" integrity="sha256-ygRrixsQlBByBZiOcJamh7JByO9fP+/l5UPtKNJmRsE=" crossorigin="anonymous"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Alexandre V. Jamet, PhD </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">News </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">Blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">Collaborators </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Situational Awareness Is a Ledger, Not a Feeling</h1> <p class="post-meta"> Created on November 07, 2026 </p> <p class="post-tags"> <a href="/blog/2026"> <i class="fa-solid fa-calendar fa-sm"></i> 2026 </a>   ·   <a href="/blog/tag/situational-awareness"> <i class="fa-solid fa-hashtag fa-sm"></i> situational-awareness</a>   <a href="/blog/tag/risk-management"> <i class="fa-solid fa-hashtag fa-sm"></i> risk-management</a>   <a href="/blog/tag/portfolio-management"> <i class="fa-solid fa-hashtag fa-sm"></i> portfolio-management</a>   <a href="/blog/tag/ai-infrastructure"> <i class="fa-solid fa-hashtag fa-sm"></i> ai-infrastructure</a>   <a href="/blog/tag/macro-economics"> <i class="fa-solid fa-hashtag fa-sm"></i> macro-economics</a>   ·   <a href="/blog/category/finance"> <i class="fa-solid fa-tag fa-sm"></i> finance</a>   <a href="/blog/category/macro-economics"> <i class="fa-solid fa-tag fa-sm"></i> macro-economics</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>Between 5 September and 6 November 2026 I sent eleven letters to a small group of friends and family who had asked me to keep them posted on what I was doing with my portfolio. I did not set out to write a series. The first one was meant to be a single note explaining why I was changing my mind about a market I had been long for two and a half years. Then the trade moved, and people asked questions, and the note became a habit.</p> <p>Read end to end, those eleven letters are not a track record. They are a method. And the method is the only part worth publishing, because the returns are the part that will not repeat.</p> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog/boliviainteligente-GH6uTRKPK0Q-unsplash-480.webp 480w,/assets/img/blog/boliviainteligente-GH6uTRKPK0Q-unsplash-800.webp 800w,/assets/img/blog/boliviainteligente-GH6uTRKPK0Q-unsplash-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/blog/boliviainteligente-GH6uTRKPK0Q-unsplash.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="75%" height="auto" title="An Event Horizon, Inferred" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> <figcaption class="caption">You never see the horizon itself — only the way the light bends around it. Most market regimes are the same.</figcaption> </figure> <blockquote> <p><strong>Core thesis:</strong> Situational awareness is not the ability to predict the next move. It is the discipline of writing down what you believe, why you believe it, what you are doing about it, and what would prove you wrong — <em>before</em> the market tells you. The letters are the ledger. The returns are a by-product of keeping it honestly.</p> </blockquote> <h2 id="what-the-letters-are-not">What the letters are not</h2> <p>Three disclaimers, because the genre invites overclaiming.</p> <p>They are <strong>not a prediction engine.</strong> I did not call the top. I called a divergence I could see from where I sit, and I positioned for it. Those are different activities, and confusing them is how people lose money with a correct thesis.</p> <p>They are <strong>not conviction.</strong> Every letter contains a hedge, a risk budget, or an explicit statement of what would make me wrong. That is not weakness of belief; it is the only form of belief that survives contact with a market.</p> <p>They are <strong>not a track record.</strong> Eleven letters over nine weeks is one regime, one portfolio, and a sample size that a statistician would refuse to look at. What follows is a description of a process, not evidence that the process works.</p> <h2 id="the-method-in-four-moves">The method, in four moves</h2> <h3 id="1-read-the-physical-layer-not-the-narrative">1. Read the physical layer, not the narrative</h3> <p>The September letter did not start from a chart. It started from a physical constraint: the AI buildout is a construction project before it is a software business, and construction projects consume electricity, copper, <a href="https://www.gigaenergy.com/blog/lead-time-delays-for-data-centers" rel="external nofollow noopener" target="_blank">transformers</a>, and land on a schedule that financial models do not respect.</p> <p>That framing produced the first position change. If compute demand keeps growing, the scarce input is not GPUs — it is power. So: overweight energy and power infrastructure, and trim the companies whose capital expenditure is outrunning their organic cash flow. The letter put numbers on it: AI-related bond issuance of roughly $270B in 2025, <a href="https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-forecasts-ai-debt-135325015.html" rel="external nofollow noopener" target="_blank">projected by Morgan Stanley to approach $570B in 2026</a>, against <a href="https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html" rel="external nofollow noopener" target="_blank">hyperscaler capex that has stopped being fundable out of operating cash</a>.</p> <p>The same physical reading produced the Apple position. Apple spends <a href="https://www.a16z.news/p/charts-of-the-week-apple-skips-capex" rel="external nofollow noopener" target="_blank">a couple of percent of revenue on capex</a> while the hyperscalers spend several times that share, and it owns <a href="https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/" rel="external nofollow noopener" target="_blank">an installed base of 2.5 billion active devices</a>. Whatever happens to the model layer, the rent collector on the distribution layer is capital-light. That is an architectural argument, not a momentum one.</p> <p>And it produced the gold position, for a reason that has nothing to do with gold: long-dated bond yields kept rising <em>through</em> Treasury intervention, which is what debt monetisation looks like before it is called that. <a href="https://www.federalreservehistory.org/essays/wwii-to-the-treasury-fed-accord" rel="external nofollow noopener" target="_blank">The 1940s precedent</a> is not a metaphor. It is the last time a sovereign with this debt profile chose inflation over default.</p> <h3 id="2-separate-the-technology-from-the-business-model">2. Separate the technology from the business model</h3> <p>This is the distinction I return to most often. Most people in my field collapse it in one of two ways: dismissing the technology because the equities are expensive, or assuming the technology’s success implies the equities’ success.</p> <p>AI as a technology is real, and will change how the world operates the way the internet and optical fibre did. That does not imply that the companies deploying it are viable. The dot-com bubble did not disprove the internet. <a href="https://en.wikipedia.org/wiki/Dot-com_bubble" rel="external nofollow noopener" target="_blank">The NASDAQ fell 78% from its March 2000 peak by October 2002</a>, giving up every gain of the bubble, and many of the companies that went public to sell it did not survive. <a href="https://www.cnbc.com/2018/12/18/dotcom-bubble-amazon-stock-lost-more-than-90percent-long-term-investors-still-got-rich.html" rel="external nofollow noopener" target="_blank">Amazon fell as much as 95% and did not regain its 1999 high until 2009</a>; <a href="https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm" rel="external nofollow noopener" target="_blank">Google listed in 2004</a>, after the wreckage had cleared. Both are now among the largest companies in the world. The survivors were real, and so was the destruction.</p> <p>The November letter on <a href="https://www.anthropic.com/news/s1-sec" rel="external nofollow noopener" target="_blank">Anthropic’s IPO</a> makes the same argument with a specific company. Good operational margin, a genuinely serious research organisation, and still: I will not buy at the IPO. Not because the company is bad, but because the listing mechanism rewards insiders exiting into retail excitement, and because most ETFs will buy it anyway. Missing the first week of a listing is not missing the company.</p> <p>The corollary matters more than the call: <em>being right about the technology and wrong about the equity is the normal case, not the exception.</em></p> <h3 id="3-size-the-position-before-you-size-the-story">3. Size the position before you size the story</h3> <p>The 9 September letter is the one I would keep if I could keep only one, because it is the least interesting to read and the most useful to have written.</p> <p>The thesis was that structural deficits and Treasury auction supply would keep pushing term premia higher, so: short US Treasuries. The implementation was long put warrants on the 30-year, sized at roughly <strong>1.0% of net asset value</strong>, with a stated scale-out at 30-year yields of 5.50%–5.75% or a <a href="https://developer.ice.com/fixed-income-data-services/catalog/ice-data-indices-move-index" rel="external nofollow noopener" target="_blank">MOVE index</a> spike above 130.</p> <p>That is the whole discipline in one paragraph. The story could be as large as I wanted; the position could not. A 1% NAV risk budget means the trade can be wrong and I am still here to be right about something else. It also means the trade can be <em>right</em> and the outcome is still legible — nobody has to guess what I was thinking, because I wrote it down before the outcome existed.</p> <p>The same letter ends with a line I stand by: <em>this is definitely on the wilder side — please don’t copy.</em> A letter that only contains conviction is marketing. A letter that contains the size, the exit, and the warning is a record.</p> <h3 id="4-pre-commit-the-exits">4. Pre-commit the exits</h3> <p>Every position in the series had its exit written before it had a profit.</p> <p>The bond trade had a scale-out band. The semiconductor ETF had a stop-loss placed in anticipation of the US midterms, weeks before the midterms. The semiconductor re-entry had a take-profit at €105 per share, then a second at €100. When the November election produced a blue sweep and the AI complex sold off, there was no decision to make in the moment — the decision had already been made by someone calmer, which is to say by me in September.</p> <p>This is the part that looks like discipline and is actually just bookkeeping. Pre-committing exits converts a series of emotional events into a series of administrative ones.</p> <h2 id="the-autumn-in-sequence">The autumn, in sequence</h2> <p>The letters are worth reading in order because the sequence is the argument.</p> <p><strong>5 September.</strong> The thesis change: overweight power, trim hyperscalers, long Apple, overweight gold. The stated reason is a divergence between physical compute constraints and tech balance sheets.</p> <p><strong>6 September.</strong> The actions, itemised: liquidate half the semiconductor ETF, redeploy 75% into short-dated government and corporate paper (<a href="https://www.ishares.com/uk/individual/en/products/258114/ishares-euro-ultrashort-bond-ucits-etf" rel="external nofollow noopener" target="_blank">ERNE</a>, ~2.39%), 15% into gold miners as a leveraged proxy on gold, 10% held as dry powder. A note that I might short Meta or SoftBank over the <a href="https://openai.com/index/announcing-the-stargate-project/" rel="external nofollow noopener" target="_blank">StarGate</a> financing structure.</p> <p><strong>9 September.</strong> The bond trade, executed and sized at 1% NAV, with the scale-out band and the MOVE threshold.</p> <p><strong>12 September.</strong> <a href="https://www.bls.gov/news.release/archives/cpi_09112026.htm" rel="external nofollow noopener" target="_blank">US inflation prints at 3.4% year on year</a>. The 30-year moves from 5.25% to 5.35% — ten basis points — and the trade is up 21.23%.</p> <p><strong>26 September.</strong> The 30-year at 5.49%. The trade is up 46.03% since inception. Bond vigilantes are pricing further hikes. By the end of the month the long bond <a href="https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html" rel="external nofollow noopener" target="_blank">touches its highest yield since 2002</a>.</p> <p><strong>3 October.</strong> The 30-year at <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2026" rel="external nofollow noopener" target="_blank">5.623%</a>. I begin exiting in three tranches; two are done, at 54% and 78%, averaging 62.7%. Proceeds go to ERNE to preserve dry powder.</p> <p><strong>14 October.</strong> The position is closed. Total return: 60.9%.</p> <p><strong>17 October.</strong> AI securities sell off. A take-profit is placed on the semiconductor ETF at €105, a 2.7% drawdown from spot. A note that I am preparing a gold entry for the moment US monetary policy admits <a href="https://en.wikipedia.org/wiki/Fiscal_dominance" rel="external nofollow noopener" target="_blank">fiscal dominance</a>.</p> <p><strong>25 October.</strong> The €105 take-profit fills; half the remaining semiconductor holding is offloaded. Portfolio composition disclosed: 13.6% bonds, 9.3% crypto, the rest equities and equity ETFs.</p> <p><strong>2 November.</strong> Anthropic’s S-1. I will not buy the IPO, and I am reducing semiconductor exposure and parking cash in cash-like assets.</p> <p><strong>6 November.</strong> The midterms. Democrats take <a href="https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html" rel="external nofollow noopener" target="_blank">the Senate, the House</a>, and the governorships of Texas, Ohio, and Iowa, among others — states that were the intended sites of large data centre buildouts, in <a href="https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/" rel="external nofollow noopener" target="_blank">an election fought partly on electricity bills</a>. Neo-cloud companies and <a href="https://qz.com/gpu-collateralized-debt-ai-neocloud-coreweave-financing-risks-050526" rel="external nofollow noopener" target="_blank">the special purpose vehicles holding their GPU-backed debt</a> reprice violently. My last semiconductor shares, held for two and a half years, sell on a stop-loss placed weeks earlier, at an average gain of roughly 125%. Proceeds rotate into short-dated European paper at about 3.0%.</p> <p>Nine weeks, one thesis, four instruments, and a sequence in which every decision was written down before its consequence.</p> <h2 id="what-i-got-wrong">What I got wrong</h2> <p>The letters are more useful for their errors than their results, so:</p> <p><strong>The tone was too apocalyptic.</strong> “I have been sounding like a doomsayer for the past few months” is my own line, and it is fair. A thesis delivered as prophecy is harder to falsify and easier to dismiss. The version I would write now is flatter and more conditional.</p> <p><strong>Being early is indistinguishable from being wrong until it isn’t.</strong> The de-risking began in September. The violent repricing arrived in November. For two months the position looked like a costly hedge against a collapse that kept not happening. That period is the actual test of a process, not the week it pays off.</p> <p><strong>The bond trade worked; the thesis is still unproven.</strong> A 60.9% return on a 1% NAV position is a good outcome for a small risk budget. It is not evidence that fiscal dominance has arrived. It is evidence that the trade was sized so that being wrong would have been survivable and being right would have been noticeable.</p> <p><strong>I have no idea whether the November move is the beginning or a wobble.</strong> The letter says so explicitly: <em>I genuinely hope that I am wrong writing this.</em> That sentence is not modesty. It is the honest state of the evidence.</p> <h2 id="why-write-it-down-at-all">Why write it down at all</h2> <p>Because the ledger is the only part of this that compounds.</p> <p>A thesis held privately can be revised silently. A thesis sent to four people cannot. Writing the letters forced three things that no amount of reading would have: a stated size, a stated exit, and a stated falsifier. Each of those is a place where a bad idea gets caught before it becomes an expensive one.</p> <p>There is a second-order benefit that I did not expect. The letters became a record of <em>how</em> I think, not just what I concluded. When the November selloff arrived, I could go back to September and check whether the reasoning still held, rather than reconstructing it from memory in the middle of a drawdown. Memory is a terrible archivist and an excellent forger.</p> <p>And a third, less comfortable one: writing to people who trust your judgement is a commitment device. It is much harder to talk yourself into a bad position when you know you will have to describe it in plain language on Saturday morning.</p> <h2 id="the-point">The point</h2> <p>The number people will take from this is 60.9%. The number I would keep is 1.0% — the risk budget that made the trade survivable, and the reason the outcome is a data point rather than a story about a lucky bet.</p> <p>Situational awareness is not a feeling about where the market is going. It is a ledger: what you believe, why, how much, and what would prove you wrong. Keep it honestly and it will not make you right. It will make you legible — to the people who trust you, and, more importantly, to yourself six weeks later when the market has changed and your memory has not.</p> <p>The letters are that ledger. The returns are what happened while I was keeping it.</p> <h2 id="references">References</h2> <p>The eleven letters are the primary source for this post and are not reproduced here. Everything below substantiates a factual claim made above; the letters themselves are the only evidence for the positions, sizes, and returns.</p> <ol> <li>Giga Energy — <em>The constraints that cause lead time delays for data centers</em>. <a href="https://www.gigaenergy.com/blog/lead-time-delays-for-data-centers" rel="external nofollow noopener" target="_blank">gigaenergy.com</a> </li> <li>Morgan Stanley, via Reuters — <em>AI-related debt issuance on track to approach $570B in 2026</em>. <a href="https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-forecasts-ai-debt-135325015.html" rel="external nofollow noopener" target="_blank">Yahoo Finance</a> </li> <li>CNBC — <em>The AI “credit card” is getting costlier as CoreWeave bond yield tops 16%</em> (6 November 2026). <a href="https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html" rel="external nofollow noopener" target="_blank">cnbc.com</a> </li> <li>FactSet Insight — <em>Hyperscalers Tap External Financing as AI Capex Outruns Cash Flow</em>. <a href="https://insight.factset.com/hyperscalers-tap-external-financing-as-ai-capex-outruns-cash-flow" rel="external nofollow noopener" target="_blank">insight.factset.com</a> </li> <li>a16z — <em>Charts of the Week: Apple Skips Capex</em>. <a href="https://www.a16z.news/p/charts-of-the-week-apple-skips-capex" rel="external nofollow noopener" target="_blank">a16z.news</a> </li> <li>Apple — <em>Apple reports first quarter results</em> (January 2026). <a href="https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/" rel="external nofollow noopener" target="_blank">apple.com</a> </li> <li>Federal Reserve History — <em>From WWII to the Treasury-Fed Accord</em>. <a href="https://www.federalreservehistory.org/essays/wwii-to-the-treasury-fed-accord" rel="external nofollow noopener" target="_blank">federalreservehistory.org</a> </li> <li>Citi GPS — <em>Back to the Future: Lessons from the U.S. Fiscal Deleveraging After World War II</em>. <a href="https://www.citigroup.com/global/insights/back-future-lessons-u-s-fiscal-deleveraging-world-war-ii" rel="external nofollow noopener" target="_blank">citigroup.com</a> </li> <li>Wikipedia — <em>Dot-com bubble</em>. <a href="https://en.wikipedia.org/wiki/Dot-com_bubble" rel="external nofollow noopener" target="_blank">en.wikipedia.org</a> </li> <li>CNBC — <em>At one point, Amazon stock was down 90% but investors still got rich</em> (18 December 2018). <a href="https://www.cnbc.com/2018/12/18/dotcom-bubble-amazon-stock-lost-more-than-90percent-long-term-investors-still-got-rich.html" rel="external nofollow noopener" target="_blank">cnbc.com</a> </li> <li>Google Inc. — <em>Final Prospectus, Form 424(b)(4)</em> (August 2004). <a href="https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm" rel="external nofollow noopener" target="_blank">SEC EDGAR</a> </li> <li>Anthropic — <em>Anthropic S-1</em> (2026). <a href="https://www.anthropic.com/news/s1-sec" rel="external nofollow noopener" target="_blank">anthropic.com</a> </li> <li>ICE Data Indices — <em>ICE BofA MOVE Index</em>. <a href="https://developer.ice.com/fixed-income-data-services/catalog/ice-data-indices-move-index" rel="external nofollow noopener" target="_blank">developer.ice.com</a> </li> <li>iShares / BlackRock — <em>iShares € Ultrashort Bond UCITS ETF (ERNE)</em>. <a href="https://www.ishares.com/uk/individual/en/products/258114/ishares-euro-ultrashort-bond-ucits-etf" rel="external nofollow noopener" target="_blank">ishares.com</a> </li> <li>OpenAI — <em>Announcing The Stargate Project</em>. <a href="https://openai.com/index/announcing-the-stargate-project/" rel="external nofollow noopener" target="_blank">openai.com</a> </li> <li>U.S. Bureau of Labor Statistics — <em>Consumer Price Index, August 2026</em> (11 September 2026). <a href="https://www.bls.gov/news.release/archives/cpi_09112026.htm" rel="external nofollow noopener" target="_blank">bls.gov</a> </li> <li>U.S. Department of the Treasury — <em>Daily Treasury Par Yield Curve Rates, 2026</em>. <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2026" rel="external nofollow noopener" target="_blank">treasury.gov</a> </li> <li>CNBC — <em>30-year Treasury bond yield scales to highest level since 2002</em> (29 September 2026). <a href="https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html" rel="external nofollow noopener" target="_blank">cnbc.com</a> </li> <li>Wikipedia — <em>Fiscal dominance</em>. <a href="https://en.wikipedia.org/wiki/Fiscal_dominance" rel="external nofollow noopener" target="_blank">en.wikipedia.org</a> </li> <li>CNBC — <em>2026 midterm election results: live updates</em> (4 November 2026). <a href="https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html" rel="external nofollow noopener" target="_blank">cnbc.com</a> </li> <li>Fortune — <em>Democrat wins will slow data center construction</em> (4 November 2026). <a href="https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/" rel="external nofollow noopener" target="_blank">fortune.com</a> </li> <li>Quartz — <em>GPU-collateralized debt and AI neocloud financing risks</em>. <a href="https://qz.com/gpu-collateralized-debt-ai-neocloud-coreweave-financing-risks-050526" rel="external nofollow noopener" target="_blank">qz.com</a> </li> </ol> </div> </article> <br> <hr> <br> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/ai-convertible-debt-macro-thesis/">The Hardware Dies First: A Computer Architect Reads the AI Capital Supercycle</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/agentic-ai-arch/">The Illusion of AI Architecture 'Discovery': Why Agents Need Human Foundations</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/ip-cat/">Co-Designing Cache and TLB Management for High-Performance Instruction Prefetching</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/the-early-shape-of-a-long-project/">The Early Shape of a Long Project</a> </li> </ul> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Alexandre Valentin Jamet. © 2026 Alexandre Valentin Jamet, PhD. AI4S Fellow at the <a href="https://www.bsc.es/" target="_blank" rel="external nofollow noopener">Barcelona Supercomputing Center</a>. Last updated: November 07, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3.1.0/dist/cookieconsent.umd.js" integrity="sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG+fxAp4cIrbIFTvRXU=" crossorigin="anonymous"></script> <script defer src="/assets/al_cookie/js/cookie-theme-sync.js"></script> <script>
+window.dataLayer = window.dataLayer || [];
+
+if (typeof window.gtag !== "function") {
+  window.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+}
+
+var gtag = window.gtag;
+gtag("consent", "default", {
+  ad_storage: "denied",
+  analytics_storage: "denied",
+  functionality_storage: "denied",
+  personalization_storage: "denied",
+});
+
+var cookieConsentRetryCount = 0;
+var COOKIE_CONSENT_MAX_RETRIES = 50;
+
+function initializeCookieConsent() {
+  if (!window.CookieConsent) {
+    if (cookieConsentRetryCount++ < COOKIE_CONSENT_MAX_RETRIES) {
+      setTimeout(initializeCookieConsent, 100);
+    } else {
+      console.error("CookieConsent library failed to load");
+    }
+    return;
+  }
+
+  window.CookieConsent.run({
+    categories: {
+      necessary: {
+        enabled: true,
+        readOnly: true,
+      },
+      analytics: {},
+    },
+    language: {
+      default: "en",
+      translations: {
+        en: {
+          consentModal: {
+            title: "We use cookies",
+            description:
+              'This website uses cookies to improve your experience and analyze site traffic. By clicking "Accept all", you consent to our use of cookies.',
+            acceptAllBtn: "Accept all",
+            acceptNecessaryBtn: "Reject all",
+            showPreferencesBtn: "Manage Individual preferences",
+          },
+          preferencesModal: {
+            title: "Manage cookie preferences",
+            acceptAllBtn: "Accept all",
+            acceptNecessaryBtn: "Reject all",
+            savePreferencesBtn: "Accept current selection",
+            closeIconLabel: "Close modal",
+            sections: [
+              {
+                title: "Cookie usage",
+                description:
+                  "We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want.",
+              },
+              {
+                title: "Strictly Necessary cookies",
+                description:
+                  "These cookies are essential for the proper functioning of the website. Without these cookies, the website would not work properly.",
+                linkedCategory: "necessary",
+              },
+              {
+                title: "Analytics cookies",
+                description:
+                  "These cookies allow us to measure traffic and analyze your behavior to improve our service.",
+                linkedCategory: "analytics",
+              },
+              {
+                title: "More information",
+                description:
+                  'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://alexandrevalentinjamet.eu/#contact">contact us</a>.',
+              },
+            ],
+          },
+        },
+      },
+    },
+    onFirstConsent: function (consentData) {
+      updateConsentMode(consentData);
+    },
+    onChange: function (consentData) {
+      updateConsentMode(consentData);
+    },
+  });
+
+  function updateConsentMode(consentData) {
+    var categories = consentData.categories || consentData;
+
+    if (!categories || typeof categories !== "object") {
+      console.warn("Invalid consent data structure:", consentData);
+      return;
+    }
+
+    gtag("consent", "update", {
+      analytics_storage: categories.analytics ? "granted" : "denied",
+      ad_storage: "denied",
+      functionality_storage: "denied",
+      personalization_storage: "denied",
+    });
+
+    if (categories.analytics) {
+      console.debug("Analytics consent granted; tracking enabled for configured providers.");
+    } else {
+      console.debug("Analytics consent denied; tracking remains blocked.");
+    }
+  }
+}
+
+initializeCookieConsent();
+
+</script> <script type="text/plain" data-category="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-4LRRMD21Z3"></script> <script type="text/plain" data-category="analytics">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-4LRRMD21Z3");
+</script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "publications by categories in reversed chronological order. generated by jekyll-scholar.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A curated list of the projects I work on and try to have some sort of impact with <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "This is an overview of my work life. You can also download the pdf with the following button to access the more academic and complete version.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-collaborators",
+          title: "Collaborators",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
+        },{id: "post-situational-awareness-is-a-ledger-not-a-feeling",
+        
+          title: "Situational Awareness Is a Ledger, Not a Feeling",
+        
+        description: "Between September and November 2026 I wrote eleven letters to a small group of people who asked me to keep them posted. Read together they are not a track record — they are a method: read the physical layer, separate the technology from the business model, size the position before the story, and pre-commit the exits.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/situational-awareness/";
+          
+        },
+      },{id: "post-the-hardware-dies-first-a-computer-architect-reads-the-ai-capital-supercycle",
+        
+          title: "The Hardware Dies First: A Computer Architect Reads the AI Capital Supercycle",
+        
+        description: "Central bankers now blame hyperscaler CapEx for bond yields. An architect's walk through the AI debt stack — hidden liabilities, the DeepSeek repricing, and the one fixed point of the cycle: good AI runs on good hardware.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ai-convertible-debt-macro-thesis/";
+          
+        },
+      },{id: "post-the-illusion-of-ai-architecture-39-discovery-39-why-agents-need-human-foundations",
+        
+          title: "The Illusion of AI Architecture 'Discovery': Why Agents Need Human Foundations",
+        
+        description: "A critical breakdown of recent agentic AI frameworks in computer architecture, arguing why LLMs are stellar local optimizers but incapable of conceptual ignition.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/agentic-ai-arch/";
+          
+        },
+      },{id: "post-co-designing-cache-and-tlb-management-for-high-performance-instruction-prefetching",
+        
+          title: "Co-Designing Cache and TLB Management for High-Performance Instruction Prefetching",
+        
+        description: "An architectural deep-dive into the IP-CaT framework published at ISCA 2026, addressing the translation and pollution bottlenecks of instruction streams.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ip-cat/";
+          
+        },
+      },{id: "post-the-early-shape-of-a-long-project",
+        
+          title: "The Early Shape of a Long Project",
+        
+        description: "A personal journey into rethinking CPU front-ends — and why I think it's time to look beyond instructions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/the-early-shape-of-a-long-project/";
+          
+        },
+      },{id: "news-characterizing-the-impact-of-last-level-cache-replacement-policies-on-big-data-workloads-https-doi-org-10-1109-iiswc50251-2020-00022-accepted-at-iiswc-2020",
+          title: '[Characterizing the impact of last-level cache replacement policies on big-data workloads](https://doi.org/10.1109/IISWC50251.2020.00022) accepted at...',
+          description: "",
+          section: "News",},{id: "news-a-two-level-neural-approach-combining-off-chip-prediction-with-adaptive-prefetch-filtering-https-doi-org-10-1109-hpca57654-2024-00046-accepted-at-hpca-2024",
+          title: '[A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering](https://doi.org/10.1109/HPCA57654.2024.00046) accepted...',
+          description: "",
+          section: "News",},{id: "news-practically-tackling-memory-bottlenecks-of-graph-processing-workloads-https-doi-org-10-1109-ipdps57955-2024-00096-accepted-at-ipdps-2024-https-www-ipdps-org-ipdps2024",
+          title: '[Practically tackling memory bottlenecks of graph-processing workloads](https://doi.org/10.1109/IPDPS57955.2024.00096) accepted at **[IPDPS 2024](https://www.ipdps.org/ipdps2024/)**.',
+          description: "",
+          section: "News",},{id: "news-a-two-level-neural-approach-combining-off-chip-prediction-with-adaptive-prefetch-filtering-https-ieeexplore-ieee-org-abstract-document-10476485-received-the-hipeac-2024-paper-award",
+          title: '**[A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering](https://ieeexplore.ieee.org/abstract/document/10476485)** received...',
+          description: "",
+          section: "News",},{id: "news-presented-a-two-level-neural-approach-combining-off-chip-prediction-with-adaptive-prefetch-filtering-at-hpca-2024-in-edinburgh-united-kingdom",
+          title: 'Presented **A Two Level Neural Approach Combining Off-Chip Prediction with Adaptive Prefetch Filtering**...',
+          description: "",
+          section: "News",},{id: "news-presented-practically-tackling-memory-bottlenecks-of-graph-processing-workloads-at-ipdps-2024-https-www-ipdps-org-ipdps2024-in-san-francisco-california-united-states-of-america",
+          title: 'Presented **Practically tackling memory bottlenecks of graph-processing workloads** at **[IPDPS 2024](https://www.ipdps.org/ipdps2024/)** in San...',
+          description: "",
+          section: "News",},{id: "news-successfully-defended-my-phd-thesis-entitle-quot-interaction-between-computer-architecture-and-artificial-intelligence-quot-and-received-cum-laude",
+          title: 'Successfully defended my PhD thesis entitle: **&quot;Interaction Between Computer Architecture and Artificial Intelligence&quot;**...',
+          description: "",
+          section: "News",},{id: "news-following-the-end-of-my-doctoral-studies-i-was-promoted-to-ai4s-fellow-https-www-bsc-es-es-unete-oportunidades-de-excelencia-profesional-ai4s-recognized-researcher",
+          title: 'Following the end of my Doctoral Studies, I was promoted to **[AI4S Fellow](https://www.bsc.es/es/unete/oportunidades-de-excelencia-profesional/ai4s)...',
+          description: "",
+          section: "News",},{id: "news-i-attended-the-hipeac-2025-https-www-hipeac-net-2025-barcelona-conference-in-barcelona-spain",
+          title: 'I attended the **[HiPEAC 2025](https://www.hipeac.net/2025/barcelona)** Conference in Barcelona, Spain.',
+          description: "",
+          section: "News",},{id: "news-i-served-as-a-reviewer-for-the-12th-international-bsc-severo-ochoa-doctoral-symposium-2025-https-www-bsc-es-education-predoctoral-phd-doctoral-symposium-12th-international-bsc-severo-ochoa-doctoral-symposium-2025",
+          title: 'I served as a reviewer for the **[12th International BSC Severo Ochoa Doctoral...',
+          description: "",
+          section: "News",},{id: "news-bulb-patent-published-quot-perceptron-based-off-chip-predictor-quot-ep4575807a1-filed-in-december-2023-now-publicly-available-via-epo-combines-off-chip-perceptron-prediction-with-adaptive-prefetch-filtering-for-memory-systems-link-view-patent-https-patents-google-com-patent-ep4575807a1-en-page-facing-up-download-pdf-assets-pdf-ep4575807a1-pdf",
+          title: '<img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> Patent Published: &quot;Perceptron-based off-chip predictor&quot; (EP4575807A1) Filed in December 2023 -- now...',
+          description: "",
+          section: "News",},{id: "news-i-will-serve-as-a-reviewer-in-the-program-committee-of-the-isca-2026-https-iscaconf-org-isca2026-artifact-evaluation",
+          title: 'I will serve as a reviewer in the Program Committee of the **[ISCA...',
+          description: "",
+          section: "News",},{id: "news-enhancing-instruction-prefetching-via-cache-and-tlb-management-accepted-at-isca-2026",
+          title: 'Enhancing Instruction Prefetching via Cache and TLB Management accepted at ISCA 2026.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_04_17_isca2026_ip_cat_accept/";
+            },},{id: "news-presented-enhancing-instruction-prefetching-via-cache-and-tlb-management-at-isca-2026-in-raleigh-north-carolina-united-states-of-america",
+          title: 'Presented Enhancing Instruction Prefetching via Cache and TLB Management at ISCA 2026 in...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_07_01_isca_2026_ip_cat_presentation/";
+            },},{id: "news-the-track-project-has-entered-its-test-phase-within-the-bsc-dataverse-test-instance",
+          title: 'The TRACK project has entered its test phase within the BSC Dataverse test...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_07_14_track_project_test/";
+            },},{id: "news-i-will-serve-as-a-reserve-reviewer-for-the-hpca-2027-https-conf-researchr-org-home-hpca-2027-conference",
+          title: 'I will serve as a reserve reviewer for the **[HPCA 2027](https://conf.researchr.org/home/hpca-2027)** conference.',
+          description: "",
+          section: "News",},{id: "news-i-will-serve-as-a-reviewer-in-the-program-committee-of-the-micro-2026-https-microarch-org-micro59-artifact-evaluation",
+          title: 'I will serve as a reviewer in the Program Committee of the **[MICRO...',
+          description: "",
+          section: "News",},{id: "projects-track",
+          title: 'TRACK',
+          description: "An Open-Source, Global Trace Library for Trace-Based Simulators",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/track/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/resume.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%61%6C%65%78%61%6E%64%72%65.%6A%61%6D%65%74@%62%73%63.%65%73", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/279/2596.html", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/alexandrevjamet.bsky.social", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-6119-0213", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jesuisalexjamet", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=yQV9-VMAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/alexandrevjamet", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/alexandvjamet", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
