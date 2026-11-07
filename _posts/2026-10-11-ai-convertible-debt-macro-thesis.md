@@ -6,7 +6,7 @@ date: 2026-10-11
 categories: [computer-architecture, finance]
 tags: [ai-infrastructure, convertible-debt, hyperscalers, energy-efficiency, macro-economics]
 thumbnail: assets/img/blog/denny-muller-JyRTi3LoQnc-unsplash.jpg
-og_image: assets/img/blog/denny-muller-JyRTi3LoQnc-unsplash.jpg
+og_image: /assets/img/blog/denny-muller-JyRTi3LoQnc-unsplash.jpg
 related_posts: true
 ---
 
